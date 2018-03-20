@@ -1,0 +1,33 @@
+.wrapper{max-width: 960px;
+  font-family: sans-serif;
+  margin-right: auto;
+  margin-left: auto;}
+  
+  
+h1{text-align: center;
+    margin-bottom: 40px;
+    margin-top: 5%;
+    font-weight: bold;}
+    
+h3{padding-left: 40px;}
+
+h4{text-align: center;}
+    
+.heroimage{text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	max-width: 100%;}
+
+.summarytext{padding-left: 40px;
+	padding-right: 40px;}
+	
+	
+.selfimage img{border-radius: 50%;
+max-width: 200px;
+margin-left: 40px;}
+
+.author{padding-left: 40px;
+	padding-right: 40px;}
+
+
+@media (min-width: 48em) 
