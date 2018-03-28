@@ -1,33 +1,42 @@
-.wrapper{max-width: 960px;
-  font-family: sans-serif;
-  margin-right: auto;
-  margin-left: auto;}
+body {
+	font-size: 30;
+	line-height: 1;
+	max-width: 600px;
+  	font-family: Georgia, serif;
+  	padding: 60px;
+  	margin: 0 auto;
+  	background: #fcc;
+	}
   
-  
-h1{text-align: center;
-    margin-bottom: 40px;
-    margin-top: 5%;
-    font-weight: bold;}
-    
-h3{padding-left: 40px;}
-
-h4{text-align: center;}
-    
-.heroimage{text-align: center;
-	padding-left: 40px;
-	padding-right: 40px;
-	max-width: 100%;}
-
-.summarytext{padding-left: 40px;
-	padding-right: 40px;}
+.title {
+	padding-top: 100px;
+	font-size: 200px;
+	letter-spacing: 10px;
+	}
 	
 	
-.selfimage img{border-radius: 50%;
-max-width: 200px;
-margin-left: 40px;}
+.characters {
+	font-size: 22px;
+	letter-spacing: 4px;
+	padding-right: 150px;
+    line-height: 40px;
+	letter-spacing: 10px;
+	line-height: 20px;
+	}
 
-.author{padding-left: 40px;
-	padding-right: 40px;}
-
-
-@media (min-width: 48em) 
+.line1 {
+	line-height: 50px;
+	letter-spacing: 3px;
+	}
+	
+	
+.line2 {
+	line-height: 50px;
+	letter-spacing: 3px;
+	}
+		
+	
+.line3 {
+	line-height: 50px;
+	letter-spacing: 3px;
+	}
