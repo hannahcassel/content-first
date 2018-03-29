@@ -1,41 +1,57 @@
-body {
+.whole {
 	font-size: 30;
 	line-height: 1;
-	max-width: 600px;
+	max-width: 60em;
   	font-family: Georgia, serif;
-  	padding: 60px;
+  	padding: 3em;
   	margin: 0 auto;
 	}
   
 .title {
-	padding-top: 100px;
-	font-size: 200px;
+	padding-top: .5em;
+	font-size: 12.5em;
 	letter-spacing: 10px;
 	}
 	
+.sectiontitle {
+	font-size: 1.5em;
+	padding-top: 2em;
+	}
 	
-.characters {
-	font-size: 22px;
-	letter-spacing: 4px;
-	padding-right: 150px;
-    line-height: 40px;
-	letter-spacing: 10px;
-	line-height: 20px;
+.underline {
+	font-size: 1em;
+	padding-bottom: 2em;
 	}
 
-.line1 {
-	line-height: 50px;
-	letter-spacing: 3px;
+
+.characters {
+	word-wrap: break-word;
+	text-align: justify;
+	max-width: 16.2em;
+	font-size: 1.375em;
+	letter-spacing: .5em;
+	line-height: 1.4;
 	}
 	
+.style1 {
+	font-style: regular;
+	font-size: 3em;
+	line-height: 1.2;
+	}
+
+.style2 {
+	font-style: italic;
+	font-size: 3em;
+	line-height: 1.2;
+	}
 	
-.line2 {
-	line-height: 50px;
-	letter-spacing: 3px;
+.style3 {
+	font-size: 3em;
+	line-height: 1.2;
 	}
 		
-	
-.line3 {
-	line-height: 50px;
-	letter-spacing: 3px;
+.style4 {
+	font-style: italic;
+	font-size: 3em;
+	line-height: 1.2;
 	}
