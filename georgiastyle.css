@@ -7,6 +7,17 @@
   	margin: 0 auto;
 	}
   
+.wrapper {
+	max-width: 50%;
+	display: inline-block;
+	}
+	
+.wrapper2 {
+	max-width: 50%;
+	padding-left: 5;
+	display: inline-block;
+	}
+	  
 .title {
 	padding-top: .2em;
 	font-size: 12.5em;
@@ -22,7 +33,6 @@
 	font-size: 1em;
 	padding-bottom: 2em;
 	}
-
 
 .characters {
 	word-wrap: break-word;
@@ -56,4 +66,9 @@
 	font-weight: bold;
 	font-size: 3em;
 	line-height: 1.2;
+	}
+	
+.about {
+	line-height: 1.4;
+	padding-left: 500;
 	}
