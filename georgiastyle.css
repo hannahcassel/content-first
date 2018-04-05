@@ -7,13 +7,26 @@
   	margin: 0 auto;
 	}
   
+  
+  
 .wrapper {
 	width: 44%;
+	padding: 1em;
 	display: inline-block;
 	vertical-align: top;
 	}
 	
-	  
+.nav a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: .3em;
+	background-color: 
+	}
+	
+.nav a:hover {
+	color: #c99;
+	}
+
 .title {
 	padding-top: .2em;
 	font-size: 12.5em;
@@ -65,33 +78,38 @@
 	line-height: 1.2;
 	}
 	
+.designer {
+	line-height: 1.4;
+	}
+	
 .glyphs {
 	font-size: 12em;
 	padding-top: 50px;
+	padding-bottom: .3em;
 	color: #c99
 	}
 	
-.input {
-        border: none;   /* This removes the default border from around an input */
-        caret-color: transparent;   /* This removes the blinking cursor when you're typing */
-        
-        /* Everything below here you can edit */
-        font-size: 30px;
-        font-family: Times New Roman; /* You'll want to change this to your font */
-        background: #dadada;
-        padding: 10px;
-    }
-    
+input {
+    padding-left: 1em;
+    padding-bottom: 5em;
+    width: 100%;
+    padding-top: 10px;
+    font-family: Georgia;
+    font-size: 1em;
+	}
 
+	input:focus,
+	input:active {
+  	outline: none;
+	}
 
-<!-- This input gives you a place to type in text which you can change to your font. -->
 	
 .about {
 	line-height: 1.4;
 	padding-left: 500;
 	}
 	
-	
+
 	
 	
 	
