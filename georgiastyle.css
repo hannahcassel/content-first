@@ -115,7 +115,7 @@ input {
 	
 @media screen and (max-device-width: 618px) {
 
-.wrapper, .characters, .style {
+.wrapper, .characters, .style, .nav a {
 	max-width: 90%;
 	}
 	
@@ -123,4 +123,7 @@ input {
 	display: none;
 	}
 
+.input {
+	font-size: 2em;
+	}
 	
