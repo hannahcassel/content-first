@@ -6,11 +6,11 @@
   	padding: 3em;
   	margin: 0 auto;
 	}
-  
-  
-  
+    
+
+    
 .wrapper {
-	width: 44%;
+	max-width: 44%;
 	padding: 1em;
 	display: inline-block;
 	vertical-align: top;
@@ -25,12 +25,14 @@
 	
 .nav a:hover {
 	color: #c99;
+	max-width: 100%;
 	}
 
 .title {
 	padding-top: .2em;
 	font-size: 12.5em;
 	letter-spacing: 10px;
+	max-width: 100%;
 	}
 	
 .sectiontitle {
@@ -52,6 +54,8 @@
 	letter-spacing: .5em;
 	line-height: 1.4;
 	}
+	
+
 	
 .style1 {
 	font-style: regular;
@@ -109,9 +113,13 @@ input {
 	padding-left: 500;
 	}
 	
+@media screen and (max-device-width: 618px) {
 
+.wrapper, .characters, .style {
+	max-width: 90%;
+	}
 	
-	
-	
-	
+.glyphs {
+	display: none;
+	}
 	
